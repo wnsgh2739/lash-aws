@@ -95,6 +95,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>2.7.2</version>
 				<configuration>
+					<jvmArguments>-Xms2048m -Xmx4096m</jvmArguments>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
